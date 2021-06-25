@@ -100,12 +100,12 @@
   margin-top: 90px;
 }
 /*  contact CSS*/
-/* 
+
 .resume-right-col{
   background: #27221f;
   color: white;
   padding: 2em;
-} */
+}
 
 .aboutme-body{
   margin: auto;
@@ -116,8 +116,7 @@
   justify-content:  center;
   padding:  2em;
 }
-.aboutme-right-col { 
-  
+.aboutme-right-col {   
   padding: 20px;
   margin: 20px;
   border-radius: 15%;

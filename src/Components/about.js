@@ -8,7 +8,7 @@ class Aboutme extends Component{
              <Grid className='aboutme-grid'>
                 <Cell col={6}> 
                      {/* <h2>  Meet Him</h2> */}
-                    <img src="./image/desire.jpg " alt= "deesire" style={ {height: '300px', paddingTop:'3.0em'}}/>                   
+                    <img src="./image/desire.jpg " alt= "deesire" style={ {height: '200px', borderRadius: '50%', paddingTop:'3.0em'}}/>                   
                     <h6>   BYAMUNGU Desire</h6>
                    
                     </Cell>
