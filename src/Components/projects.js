@@ -152,10 +152,10 @@ class Projects extends Component {
             {/* Project 2*/}
              
             <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/digital.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/ryaneza.jpg") center/ cover'}}>
              </CardTitle>
              <CardText>
-             A mom was an project ever did
+              <Link to= {{ pathname: "https://isoko.netlify.app/" }} target="_blank"> Ryaneza project </Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
@@ -170,10 +170,10 @@ class Projects extends Component {
          {/* Project 3 */}
              
          <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/digital2.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/ryaneza.jpg") center/ cover'}}>
               </CardTitle>
              <CardText>
-             Africa was an awesome project ever did
+                 <Link to= {{ pathname: "https://isoko.netlify.app/" }} target="_blank">curuzaneza project </Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
