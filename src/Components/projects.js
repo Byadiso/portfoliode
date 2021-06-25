@@ -110,10 +110,10 @@ class Projects extends Component {
          {/* Project 3 */}
              
          <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/poster3.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/amakuru.jpg") center/ cover'}}>
               </CardTitle>
              <CardText>
-                 Ngana  was an awesome project ever did
+               <Link to= {{ pathname: "https://amakuru.netlify.app/" }} target="_blank">news projects</Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
@@ -195,10 +195,10 @@ class Projects extends Component {
             {/* Project 1 */}
             
              <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/digital3.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/twitter.jpg") center/ cover'}}>
              </CardTitle>
              <CardText>
-             Kanyanga was an awesome project ever did
+                 <Link to= {{ pathname: "https://twiiter.netlify.app/" }} target="_blank">Twitter clone</Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
@@ -212,10 +212,10 @@ class Projects extends Component {
             {/* Project 2*/}
              
             <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/digital1.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/universito.jpg") center/ cover'}}>
              </CardTitle>
              <CardText>
-             Cheese Design was an project ever did
+                <Link to= {{ pathname: "https://universito.netlify.app/" }} target="_blank">Universito project </Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
@@ -230,10 +230,10 @@ class Projects extends Component {
          {/* Project 3 */}
              
          <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/logo3.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/ganira.jpg") center/ cover'}}>
                </CardTitle>
              <CardText>
-             Wine Design  was an awesome project ever did
+                  <Link to= {{ pathname: "https://ganira.netlify.app/" }} target="_blank">ganira project </Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
