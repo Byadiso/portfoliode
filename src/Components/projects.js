@@ -135,10 +135,10 @@ class Projects extends Component {
             {/* Project 1 */}
             
              <Card shadow ={5} style = {{minWidth: "450", margin: 'auto'}}>
-             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/digital2.jpg") center/ cover'}}>
+             <CardTitle style= {{color: 'black', height: '286px', background: 'url("./image/isoko.jpg") center/ cover'}}>
              </CardTitle>
              <CardText>
-                 Children are awesome
+                <Link to= {{ pathname: "https://isoko.netlify.app/" }} target="_blank"> Isoko project </Link> 
              </CardText>
              <CardActions border>
                  <Button colored>View</Button>
