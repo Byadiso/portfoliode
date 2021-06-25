@@ -19,13 +19,16 @@ class Aboutme extends Component{
                 <div  className="about-list" >
                     <List>
                             <ListItem>
-                                <ListItemContent style={{fontSize: '17px', color: 'grey'}} >                                
-                              "He is spending his time creating things using javascript!When not coding he likes playing his guitar,and sometime modelling 3D characters for games with Blender. 
-                               "
-                               </ListItemContent>
+                                        <ListItemContent style={{fontSize: '17px', color: 'grey'}} >                                
+                                    "He is spending his time creating things using javascript!When not coding he likes playing his guitar,and sometime modelling 3D characters for games with Blender. 
+                                    "
+                                    </ListItemContent>
                             </ListItem>
-                            <p style= {{ width: '100%', margin:'0px' ,fontStyle:'italic'}}>A young creator, team player, optimist and a CEO at Ngana Tech .</p>
-                           
+                            <ListItem>
+                                    <ListItemContent>
+                                            <p style= {{ width: '100%', margin:'0px' ,fontStyle:'italic'}}>A young creator, team player, optimist and a CEO at Ngana Tech .</p>
+                                    </ListItemContent>
+                            </ListItem>
                     </List>
                     
                 </div>
