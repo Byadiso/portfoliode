@@ -8,7 +8,7 @@ class Aboutme extends Component{
              <Grid className='aboutme-grid'>
                 <Cell col={6}> 
                      {/* <h2>  Meet Him</h2> */}
-                    <img src="./image/desire.png " alt= "deesire" style={ {height: '300px', paddingTop:'3.0em'}}/>                   
+                    <img src="./image/desire.jpg " alt= "deesire" style={ {height: '300px', paddingTop:'3.0em'}}/>                   
                     <h6>   BYAMUNGU Desire</h6>
                    
                     </Cell>
@@ -20,14 +20,14 @@ class Aboutme extends Component{
                     <List>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', color: 'grey'}} >                                
-                              "He spends his time composing some good  melody, 
-                               He likes creating things and play With some code,
+                              "He is spending his time creating solutions using javascript and recent technologies! 
+                               when not coding he likes playing his guitar,and sometime modelling 3D character for games with Blender. 
                                "
                                </ListItemContent>
                             </ListItem>
                            
                     </List>
-                    <p style= {{ width: '103%', margin:'auto' ,fontStyle:'italic'}}>A young creator, obsessed With the beauty of the nature and optimist of everyday.</p>
+                    <p style= {{ width: '103%', margin:'auto' ,fontStyle:'italic'}}>A young creator, team player, optimist and a CEO at Ngana Tech .</p>
                         </div>
                     
                 </Cell>

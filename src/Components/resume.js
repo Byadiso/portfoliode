@@ -5,21 +5,26 @@ import Experience from './experience';
 import Skills from './skills';
 import Intro from './intro';
 
-class Resume extends Component{
+
+
+
+
+class Resume extends Component{    
     render(){
+    
         return(
             <div>
                 <Grid>
                     <Cell col={5}>
                             <div style={{textAlign: 'center'}}>
-                            <img src="./image/desire.png " alt=" desire" style={{height:'200px', marginTop:'20px'}}/>
+                            <img src="./image/desire.jpg " alt=" desire" style={{height:'200px',paddingRight:'20px', marginTop:'20px', borderRadius:"50%"}}/>
                             </div>
                             {/* <h4 style={{paddingTop:'2em', width: '60%' }}> BYAMUNGU Desire</h4>   */}
                             <Intro 
-                                name= "BYAMUNGU Desire"
-                                careerTitle="Graphic designer"
-                                careerIntro ="I am young ,creative and nature observer"
-                                address ="POLAND-Poznan"
+                                name="BYAMUNGU Desire"
+                                careerTitle="Full-Stack Developper"
+                                careerIntro ="I am young ,Optimist and Team player"
+                                address ="Poland-Poznan"
                                 tel="(+48)795-342-660"
                                 email="byadiso@gmail.com"
                                 
@@ -32,33 +37,45 @@ class Resume extends Component{
                     
                         <h2>Education</h2>
                         <Education
-                            startYear={208}
-                            endYear ={2013}
-                            schoolName="Petit seminaire de NYUNDO"
-                            schoolDescription="I did  my secondary studies at this beautfull school , i studied MCB."
+                            startYear={2019}
+                            endYear ={2021}
+                            schoolName="Poznan university of life sciences"
+                            schoolDescription="I am studying agronomy and bioengineering"
                         />
+                        <Education
+                        startYear={2019}
+                        endYear ={2018}
+                        schoolName="Andela Boot Camp  Full-stack"
+                        schoolDescription="I learnt HTML, CSS, JQuery, Javascript,Node.js, React, MongoBD"
+                          />
                         <Education
                             startYear={2014}
                             endYear ={2018}
                             schoolName="University of RWANDA"
-                            schoolDescription="I have done My University  studied  at NYARUGENGE Campus where i studied Biotechnology"
+                            schoolDescription="I learnt Biotechnology"
                         />
                     <hr sytle={{borderTop: '3px solid #e22947'}}/>
                     
                     <h2>Experience</h2>
 
                     <Experience
-                            startYear={2014}
-                            endYear ={2016}
-                            jobName="First Job"
-                            jobDescription="I worked at NGANA TEch as a freelancer graphic designer."
+                            startYear={2017}
+                            endYear ={2019}
+                            jobName="Web Designer at NgaNa Tech"
+                            jobDescription="I was working on frontend projects mostly , creating website using javascript and Wordpress"
                         />
                         
                         <Experience
-                            startYear={2012}
-                            endYear ={2019}
-                            jobName="Second Job"
-                            jobDescription="I worked at NEW TECHNOLOGIES as a website designer. "
+                            startYear={2019}
+                            endYear ={2020}
+                            jobName="Full stack Developper  at Yoop.rw"
+                            jobDescription="I was working as website master, and I developped different  front-end  and back-end features "
+                        />
+                        <Experience
+                            startYear={2019}
+                            endYear ={2020}
+                            jobName="Web Master at Friends of Green"
+                            jobDescription="I was working as website master, and I developped different  frontend features "
                         />
                      </Cell>   
                      <Cell className="resume-right-col" col={12}>      
@@ -66,21 +83,37 @@ class Resume extends Component{
 
                         <h2 sytle={{margin: '20px 0 0 20px'}}>Skills</h2>
                         <Skills 
-                            skill="Photoshop"
+                            skill="HTML"
                             progress={95}
                         />
                         <Skills 
-                            skill="Illustrator"
+                            skill="CSS"
                             progress={90}
                         />
                       
                         <Skills 
-                            skill="Blender"
-                            progress={80}
+                            skill="Javascript"
+                            progress={95}
                         />
 
                         <Skills 
-                            skill="Adobe Premier Pro"
+                            skill="JQuery"
+                            progress={70}
+                        />
+                         <Skills 
+                            skill="Node.js"
+                            progress={70}
+                        />
+                         <Skills 
+                            skill="React.js"
+                            progress={70}
+                        />
+                          <Skills 
+                            skill="MongoDb"
+                            progress={65}
+                        />
+                         <Skills 
+                            skill="MSQL"
                             progress={65}
                         />
 

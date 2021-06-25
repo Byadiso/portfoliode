@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Navigation, Drawer, Content, Footer } from 'react-mdl';
 import Main from './Components/main';
+import FooterComponent from './Components/footer';
+
 import { Link } from 'react-router-dom';
 
 class App extends Component {
@@ -10,17 +12,17 @@ class App extends Component {
       
 <div className='demo-big-content'>
 <Layout>
-    <Header className="header-color" title={<Link style={{textDecoration: 'none',color: 'white'}} to="/">Gallery </Link> } scroll>
+    <Header className="header-color" title={<Link style={{textDecoration: 'none',color: 'white'}} to="/">Home </Link> } scroll>
     <Navigation>
         
-        <Link to="/projects">Take a look on what we are doing</Link>
+        <Link to="/projects">Take a look on what i am creating</Link>
         <Link to="/resume">Resume</Link>  
         <Link to="/contact">Contact</Link>
         <Link to="/aboutme">About me</Link>
     
     </Navigation>    
     </Header>
-    <Drawer title={<Link style={{textDecoration: 'none',color: 'black'}} to="/">Gallery </Link> } scroll>
+    <Drawer title={<Link style={{textDecoration: 'none',color: 'black'}} to="/">Home </Link> } scroll>
     <Navigation>
         
         <Link to="/resume">Resume</Link>
@@ -39,8 +41,8 @@ class App extends Component {
        
     </Content>
     <Footer size="mini" className='footer-content'>
-            
-            <p>Copyright @ BYAMUNGU Desire 2020, Poznan-Poland</p>
+            <FooterComponent />
+            {/* <p>Copyright @ change to see it BYAMUNGU Desire 2020, Poznan-Poland</p> */}
              
     </Footer>
       

@@ -9,14 +9,14 @@ class landingpage extends Component{
               
                   <Cell col={12}>
                   <img  
-                    src="./image/art.jpg "
-                    alt="my resume"
+                    src="./image/desire.jpg "
+                    alt="profile pictur"
                     className="art-img" />
                     <div className="banner-text"> 
-                       <h1> Graphic Designer</h1>
+                       <h1> Full-Stack Developper</h1>
                     
                     <hr/>
-                          <p> Photoshop | Illustrator | Blender | Premiere Pro | InDesign </p>
+                          <p> HTML | CSS | Javascript | JQuery | React | Node.js | MongoDB | WordPress | Drupal | </p>
                     </div>
                     
                     
