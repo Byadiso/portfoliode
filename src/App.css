@@ -136,9 +136,8 @@
   border-radius:30px;
   background: white;
   width: 60%;
-  /* height: auto; */
-  padding-top:100px;
-  
+  height: auto;
+  padding-top:100px;  
   color: Black;
 }
 .aboutme-grid h6, p {

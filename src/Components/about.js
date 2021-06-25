@@ -6,14 +6,14 @@ class Aboutme extends Component{
         return(
         <div className='aboutme-body'>
              <Grid className='aboutme-grid'>
-                <Cell col={3}> 
+                <Cell col={6}> 
                      {/* <h2>  Meet Him</h2> */}
                     <img src="./image/desire.jpg " alt= "deesire" style={ {height: '140px',width: '140px',borderRadius: '50%', paddingTop:'2.0em'}}/>                   
                     <h6> BYAMUNGU Desire</h6>
                    
                 </Cell>
 
-                <Cell className="aboutme-right-col" col={9}>
+                <Cell className="aboutme-right-col" col={6}>
                     
                                     
                 <div  className="about-list" >
