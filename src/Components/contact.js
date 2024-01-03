@@ -32,7 +32,7 @@ class contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent>
-                    <p>Do you have an offer or project drop a message?</p> <hr />
+                    <p>Do you have an offer or project ? Drop a message below</p> <hr />
                   </ListItemContent>
                 </ListItem>
 

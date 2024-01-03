@@ -7,7 +7,7 @@ function Footer() {
     
     return (
         <div className='footer'>
-            Copyright {year}@ BYAMUNGU Desire Poland-Poznan
+            Copyright {year}@ BYAMUNGU Desire Krakow - Poland
         </div>
     )
 }

@@ -19,7 +19,7 @@ class Resume extends Component{
                             <div style={{textAlign: 'center'}}>
                             <img src="./image/desire.jpg " alt=" desire" style={{height:'200px',paddingRight:'20px', marginTop:'20px', borderRadius:"50%"}}/>
                             </div>
-                            {/* <h4 style={{paddingTop:'2em', width: '60%' }}> BYAMUNGU Desire</h4>   */}
+                           
                             <Intro 
                                 name="BYAMUNGU Desire"
                                 careerTitle="Full-Stack Developper"
@@ -37,22 +37,23 @@ class Resume extends Component{
                     
                         <h2>Education</h2>
                         <Education
-                            startYear={2019}
-                            endYear ={2021}
-                            schoolName="Poznan university of life sciences"
-                            schoolDescription="I am studying agronomy and bioengineering"
-                        />
-                        <Education
                         startYear={2019}
                         endYear ={2018}
                         schoolName="Andela Boot Camp  Full-stack"
                         schoolDescription="I learnt HTML, CSS, JQuery, Javascript,Node.js, React, MongoBD"
                           />
                         <Education
+                            startYear={2019}
+                            endYear ={2021}
+                            schoolName="Poznan university of life sciences"
+                            // schoolDescription="I am studying agronomy and bioengineering"
+                        />
+                        
+                        <Education
                             startYear={2014}
                             endYear ={2018}
                             schoolName="University of RWANDA"
-                            schoolDescription="I learnt Biotechnology"
+                            // schoolDescription="I learnt Biotechnology"
                         />
                     <hr sytle={{borderTop: '3px solid #e22947'}}/>
                     
@@ -62,14 +63,14 @@ class Resume extends Component{
                             startYear={2017}
                             endYear ={2019}
                             jobName="Web Designer at NgaNa Tech"
-                            jobDescription="I was working on frontend projects mostly , creating website using javascript and Wordpress"
+                            jobDescription="Launched 7 Products, we are using React JS, Node.JS and WordPress technologies"
                         />
                         
                         <Experience
                             startYear={2019}
                             endYear ={2020}
                             jobName="Full stack Developper  at Yoop.rw"
-                            jobDescription="I was working as website master, and I developped different  front-end  and back-end features "
+                            jobDescription="Maintaining User interface and creatinig different feature using plugins and PHP "
                         />
                         <Experience
                             startYear={2019}
@@ -101,13 +102,18 @@ class Resume extends Component{
                             progress={70}
                         />
                          <Skills 
-                            skill="Node.js"
-                            progress={70}
-                        />
-                         <Skills 
                             skill="React.js"
                             progress={70}
                         />
+                         <Skills 
+                            skill="Node.js"
+                            progress={70}
+                        />
+                        <Skills 
+                            skill="Python"
+                            progress={70}
+                        />
+                        
                           <Skills 
                             skill="MongoDb"
                             progress={65}
@@ -115,6 +121,22 @@ class Resume extends Component{
                          <Skills 
                             skill="MSQL"
                             progress={65}
+                        />
+                        <Skills 
+                            skill="GIT"
+                            progress={65}
+                        />
+                        <Skills 
+                            skill="Firebase"
+                            progress={65}
+                        />
+                        <Skills 
+                            skill="Microsoft Azure"
+                            progress={65}
+                        />
+                        <Skills 
+                            skill="Docker"
+                            progress={70}
                         />
 
 

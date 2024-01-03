@@ -103,30 +103,30 @@
 /*  contact CSS*/
 
 .resume-right-col{
-  background: #27221f;
+  background: #0F2027;
   color: white;
   padding: 2em;
 }
 
 .aboutme-body{
+  display: flex;
+  justify-content: center;
   /* margin: auto; */
   background: #0F2027;
   width: 100%;
-  height: auto;
-  justify-content:  center;
+  height: 100%; 
   padding:  1em;
 }
 .aboutme-right-col {   
-  padding: 10px;
-  margin: 10px;
+  /* padding: 10px; */
+  /* margin: 10px; */
   border-radius: 15%;
 }
 
 .about-list{
   align-items: center;
   font-size: 40px;
-  padding-top: 0.5em;
- 
+  padding-top: 0.5em; 
   
 }
 
@@ -141,7 +141,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
 
 }
 .aboutme-grid h6, p {
@@ -150,7 +150,7 @@
 
 
 .footer-content p{
-  margin-right: 100px;
-  color: white;
+  margin-right: 10px;
+  /* color: white; */
 
 }
